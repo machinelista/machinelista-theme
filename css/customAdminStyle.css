@@ -1,0 +1,23 @@
+ 
+/*========= Machine page =========*/
+	:root {
+		--siteBlue: #82A2B3;
+		--siteOrange: #ff8b22;
+		--siteBlueBorder: rgba(37, 114, 155, 0.08);
+	}
+	button.createTag {
+		margin-top: 10px;
+		border: none;
+		padding: 5px 13px;
+		background: var(--siteBlue);
+		color: #fff;
+		cursor: pointer;
+		border-radius: 4px;
+		margin-right: 10px;
+	}
+
+	body.users-php th#dealer_industry,
+	body.users-php th#role {
+		color: #2271b1;
+		cursor: pointer;
+	}

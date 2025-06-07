@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Machine Lista - Listing Form</title>
+
+	<!-- Main stylesheet -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Font Awesome 4.7.0 -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+	<!-- Font Awesome 5 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+	<!-- jQuery 3.3.1 -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<!-- Icon -->
+	<link rel="icon" href="#">
+
+	<!-- Page specific CSS -->
+	<style>
+		.header_bottom_border {
+			margin-bottom: 0;
+		}
+	</style>
+
+	<!-- // Prefix JS -->
+	<script src="js/prefixfree.min.js"></script>
+</head>
+<body>
+	<!-- // Header -->
+	<div class="fullWidth_wrapper sticky_header">
+		<div class="site_container">
+			<header>
+				<!-- // Logo -->
+				<div class="logo">
+					<a href="#">
+						<div class="headerLogo">
+							<img src="img/header-logo/gear.png" alt="">
+							<h3>Machine Lista</h3>
+							<p>A SEARCH ENGINE <br> FOR USED MACHINERY</p>
+						</div>
+					</a>
+				</div>
+
+				<!-- // Search box -->
+				<div class="search_box">
+					<input type="text" placeholder="Manufacturer, Model or Category" id="search_box">
+				</div>
+
+				<!-- // Nav -->
+				<nav>
+					<ul>
+						<li><a href="#">Categories</a></li>
+						<li class="openadFormPopup"><a href="#">Advertise</a></li>
+						<li class="openLsFormPopup"><a href="#">List Machines</a></li>
+					</ul>
+					<ul class="mobileMenu">
+						<li><a href="#">Categories</a></li>
+						<li class="openadFormPopup"><a href="#">Advertise</a></li>
+						<li class="openLsFormPopup"><a href="#">List Machines</a></li>
+					</ul>
+					<button class="toggle_nav">
+						<!-- <i class="fas fa-bars"></i> -->
+						<img src="img/burger-menu.png" alt="">
+					</button>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- // Header bottom border -->
+	<div class="fullWidth_wrapper">
+		<div class="footer_top_border header_bottom_border">
+			<ul>
+				<li style="background-image:url(img/Footer-top-border/1.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/2.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/3.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/4.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/5.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/6.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/7.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/8.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/9.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/10.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/11.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/12.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/13.jpg)"></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- // Listing Form -->
+	<!-- <div class="fullWidth_wrapper">
+		<div class="site_container">
+			<div class="listingFormWrapper">
+				<div class="listingForm_inner">
+					<form action="">
+						<div class="sField">
+							<label for="inCat">What industry category of machine(s) are you selling?</label>
+							<select name="industryCat" id="inCat">
+								<option value=""></option>
+								<option value="Category 1">Category 1</option>
+								<option value="Category 2">Category 2</option>
+								<option value="Category 3">Category 3</option>
+							</select>
+						</div>
+
+						<div class="sField">
+							<label for="machineQ">How many machines are you selling?</label>
+							<select name="machineQ" id="machineQ">
+								<option value=""></option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+						</div>
+
+						<div class="sField">
+							<label for="cWebsite">Company / Website Address?</label>
+							<input type="text" id="cWebsite" name="cWebsite" value="www.">
+						</div>
+
+						<div class="sField">
+							<label for="cName">Contact Name?</label>
+							<input type="text" id="cName" name="cName">
+						</div>
+
+						<div class="sField">
+							<label for="cEmail">Email Address?</label>
+							<input type="email" id="cEmail" name="cEmail">
+						</div>
+
+						<div class="sField">
+							<label for="message">Email Address?</label>
+							<textarea id="cEmail" name="your-message" rows="6"></textarea>
+						</div>
+
+						<div class="sField">
+							<input type="submit" value="Submit Information">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<!-- // Footer top border -->
+	<div class="fullWidth_wrapper">
+		<div class="footer_top_border">
+			<ul>
+				<li style="background-image:url(img/Footer-top-border/1.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/2.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/3.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/4.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/5.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/6.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/7.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/8.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/9.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/10.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/11.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/12.jpg)"></li>
+				<li style="background-image:url(img/Footer-top-border/13.jpg)"></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- // Footer -->
+	<footer>
+		<!-- // Footer Shortlinks -->
+		<div class="fullWidth_wrapper">
+			<div class="site_container">
+				<div class="footer_shortLinks">
+					<div class="left">
+						<ul>
+							<li><a href="#">list machines</a></li>
+							<li><a href="#">advertise</a></li>
+							<li><a href="#">contact</a></li>
+							<li><a href="#">legals</a></li>
+						</ul>
+					</div>
+					<div class="right">
+						<ul>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- // Footer links -->
+		<div class="fullWidth_wrapper footerLinksBG">
+			<div class="site_container">
+				<div class="footerLinks">
+					<ul>
+						<li><a href="#">pharma</a></li>
+						<li><a href="#">plasticks</a></li>
+						<li><a href="#">agriculture</a></li>
+						<li><a href="#">processing</a></li>
+					</ul>
+
+					<ul>
+						<li><a href="#">wood</a></li>
+						<li><a href="#">paper</a></li>
+						<li><a href="#">packaging</a></li>
+						<li><a href="#">construction</a></li>
+					</ul>
+
+					<ul>
+						<li><a href="#">forklifts</a></li>
+						<li><a href="#">printing</a></li>
+						<li><a href="#">medical</a></li>
+						<li><a href="#">motorhomes</a></li>
+					</ul>
+
+					<ul>
+						<li><a href="#">metal</a></li>
+						<li><a href="#">trucks</a></li>
+						<li><a href="#">textiles</a></li>
+						<li><a href="#">converting</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- // Newsletter -->
+		<div class="fullWidth_wrapper">
+			<div class="site_container">
+				<div class="newsLetter_sec">
+					<p>Become a subscriber and receive <br> updates on exclusive machine offerings.</p>
+
+					<div class="newsLetter_input">
+						<input type="email" placeholder="Enter your email address">
+						<input type="submit" value="join now">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- // Copyright -->
+		<div class="fullWidth_wrapper footerCopyrightBG">
+			<div class="site_container">
+				<div class="footerCopyright">
+					<div class="left">
+						<img src="img/footer-logo.png" alt="">
+					</div>
+					<div class="right">
+						&copy; 2018 - 2020 All Rights Reserved
+					</div>
+				</div>
+			</div>
+		</div>		
+	</footer>
+
+	<!-- // Popup form -->
+	<div id="popupForm">
+		<div class="listingFormWrapper">
+			<div class="listingForm_inner">
+				<form action="" id="listingForm">
+					<div class="sField">
+						<label for="inCat">What industry category of machine(s) are you selling?</label>
+						<select name="industryCat" id="inCat">
+							<option value=""></option>
+							<option value="Category 1">Category 1</option>
+							<option value="Category 2">Category 2</option>
+							<option value="Category 3">Category 3</option>
+						</select>
+					</div>
+
+					<div class="sField">
+						<label for="machineQ">How many machines are you selling?</label>
+						<select name="machineQ" id="machineQ">
+							<option value=""></option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select>
+					</div>
+
+					<div class="sField">
+						<label for="cWebsite">Company / Website Address</label>
+						<input type="text" id="cWebsite" name="cWebsite" value="www.">
+					</div>
+
+					<div class="sField">
+						<label for="cName">Contact Name</label>
+						<input type="text" id="cName" name="cName">
+					</div>
+
+					<div class="sField">
+						<label for="cEmail">Email Address</label>
+						<input type="email" id="cEmail" name="cEmail">
+					</div>
+
+					<div class="sField">
+						<label for="message">Message</label>
+						<textarea id="cEmail" name="your-message" rows="6"></textarea>
+					</div>
+
+					<div class="sField">
+						<input type="submit" value="Submit Information">
+					</div>
+				</form>
+				<span class="close">
+					<!-- <i class="far fa-window-close"></i> -->
+					<img src="img/arrows/close.png" alt="">
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- // Popup form 2 -->
+	<div id="popupForm2">
+		<div class="listingFormWrapper">
+			<div class="listingForm_inner">
+				<form action="" id="advertiseForm">
+					<div class="sField">
+						<label for="FOP">Are you a used machine dealer or an auctioneer?</label>
+						<select name="FOP" id="FOP">
+							<option value=""></option>
+							<option value="Used machine dealer">Used machine dealer</option>
+							<option value="Auctioneer">Auctioneer</option>
+						</select>
+					</div>
+
+					<div class="sField">
+						<label for="cWebsite">Company / Website Address</label>
+						<input type="text" id="cWebsite" name="cWebsite" value="www.">
+					</div>
+
+					<div class="sField">
+						<label for="cName">Contact Name</label>
+						<input type="text" id="cName" name="cName">
+					</div>
+
+					<div class="sField">
+						<label for="cEmail">Email Address</label>
+						<input type="email" id="cEmail" name="cEmail">
+					</div>
+
+					<div class="sField">
+						<label for="message">Message</label>
+						<textarea id="cEmail" name="your-message" rows="6"></textarea>
+					</div>
+
+					<div class="sField">
+						<input type="submit" value="Submit Information">
+					</div>
+				</form>
+				<span class="close">
+					<!-- <i class="far fa-window-close"></i> -->
+					<img src="img/arrows/close.png" alt="">
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- //  -->
+	<!-- <div class="fullWidth_wrapper">
+		<div class="site_container">
+			
+		</div>
+	</div> -->
+
+	<script>
+		$(document).ready(function() {
+			$(".openLsFormPopup").click(function() {
+				$("#popupForm").show();
+				$("body").addClass('popupFormOpen');
+			});
+			$("#popupForm .close").click(function() {
+				$("#popupForm").hide();
+				$("body").removeClass('popupFormOpen');
+			});
+
+			// =======================
+			$(".openadFormPopup").click(function() {
+				$("#popupForm2").show();
+				$("body").addClass('popupFormOpen');
+			});
+			$("#popupForm2 .close").click(function() {
+				$("#popupForm2").hide();
+				$("body").removeClass('popupFormOpen');
+			});
+		});
+	</script>
+	<script src="js/customScripts.js"></script>
+</body>
+</html>

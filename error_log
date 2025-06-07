@@ -1,0 +1,4 @@
+[02-Jun-2025 12:59:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/rwoqdbd/public_html/wp-content/themes/Used-Machine-SE/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/rwoqdbd/public_html/wp-content/themes/Used-Machine-SE/index.php on line 1
